@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <h1>Cadastro de Agendamento</h1>
+
+    <form method="post" action="teste.php">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <br><br>
+
+        <label for="contato">Contato:</label>
+        <input type="text" id="contato" name="contato" required>
+        <br><br>
+
+        <label for="dia">Dia:</label>
+        <input type="date" id="dia" name="dia_semana" required>
+        <br><br>
+
+        <label for="horario">Horário:</label>
+        <input type="time" id="horario" name="horario" required>
+        <br><br>
+
+        <label for="forma_pagamento">Forma de Pagamento:</label>
+        <select id="forma_pagamento" name="pagamento" required>
+            <option value="cartao">Cartão de Crédito</option>
+            <option value="dinheiro">Dinheiro</option>
+            <option value="pix">Pix</option>
+        
+        </select>
+        <br><br>
+
+        <!-- Detalhes do Cartão de Crédito -->
+        <label for="num_cartao">Número do Cartão:</label>
+        <input type="text" id="num_cartao" name="num_cartao" required>
+        <br><br>
+
+        <label for="data_validade">Data de Validade:</label>
+        <input type="text" id="data_validade" name="data_validade" placeholder="MM/AAAA" required>
+        <br><br>
+
+        <label for="cvv">CVV:</label>
+        <input type="text" id="cvv" name="cvv" required>
+        <br><br>
+
+        <div class="topnav">
+            <button type="submit">Agendar</button>
+        </div>
+    </form>
+</body>
+</html>

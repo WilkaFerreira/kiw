@@ -1,0 +1,84 @@
+Estilos gerais para o corpo da página
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho (título) */
+h1 {
+    color: white;
+    background-color: #808080;
+    padding: 20px;
+}
+
+/* Estilos para o formulário */
+form {
+    background-color: #d3d3d3;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para rótulos (labels) */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Estilos para campos de entrada de texto e senha */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px  #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para o botão de cadastrar */
+input[type="submit"] {
+    background-color: #666;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para o botão "Agendar" */
+input[type="submit"] {
+    background-color: #666;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para o botão "Agendar" quando hover */
+input[type="submit"]:hover {
+    background-color: #808080;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
